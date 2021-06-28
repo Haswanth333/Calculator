@@ -1,0 +1,141 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  /* background-color: black; */
+
+  background-image: url("../images/bgimg.jpg");
+  background-size: cover;
+  max-height: 100vh;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+/* 
+#container {
+  width: 1000px;
+  height: 610px;
+  background-image: url("./bgimg.jpg");
+  background-size: cover;
+  margin: 20px auto;
+} */
+.footer {
+  /* height: 10vh; */
+  /* margin-top: 5px; */
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  /* padding-top: 2vh; */
+}
+#calculator {
+  width: 400px;
+  height: 550px;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background-color: #87b2ab;
+  border-radius: 7px;
+  margin: 0 auto;
+  /* top: 20px; */
+  position: relative;
+  padding: 2px;
+}
+
+#result {
+  height: 150px;
+  background-color: whitesmoke;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+#history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+#output {
+  text-align: right;
+  height: 80px;
+  margin: 10px 20px;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+#keyboard {
+  height: 400px;
+}
+
+.operator,
+.number,
+.empty {
+  width: 70px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 10px;
+  border-width: 0;
+  font-weight: 500;
+  font-size: 19px;
+  /* background: rgba(0, 0, 0, 0.6); */
+  /* color: white; */
+}
+
+.number,
+.empty {
+  background-color: #87b2ab;
+  color: white;
+  font-weight: 900;
+}
+.number:hover {
+  background-color: #394c49;
+  transition: 0.5s;
+}
+
+.number,
+.operator {
+  cursor: pointer;
+}
+
+button:nth-child(4) {
+  font-size: 25px;
+  background-color: #0e6e22;
+  color: white;
+}
+button:nth-child(8) {
+  font-size: 25px;
+  background-color: #f2a126;
+  color: white;
+}
+button:nth-child(12) {
+  font-size: 30px;
+  background-color: #fb0428;
+  color: white;
+}
+button:nth-child(16) {
+  font-size: 25px;
+  background-color: #0489fb;
+  color: white;
+}
+button:nth-child(20) {
+  font-size: 25px;
+  background-color: #c826f2;
+  color: white;
+}
+button:nth-child(1) {
+  font-size: 25px;
+  background-color: #2e4252;
+  color: white;
+}
+button:nth-child(2) {
+  font-size: 25px;
+  background-color: #2e4252;
+  color: white;
+}
+button:nth-child(3) {
+  font-size: 25px;
+  background-color: #2e4252;
+  color: white;
+}
